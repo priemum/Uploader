@@ -5,7 +5,7 @@ const fUpload = require('express-fileupload');
 app.set('port', 3000);
 
 const session = require('express-session');
-
+ 
 app.set('view engine', 'ejs');
 app.use(express.static('static'));
 app.use(require('body-parser').urlencoded({ extended: true }));
