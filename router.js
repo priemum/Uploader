@@ -5,4 +5,4 @@ module.exports = (app) => {
     // '/authorize'
     app.use('/authorize', require('./routes/discord'));
     app.use('/usystem', require('./routes/uploader'));
-}
+}          
